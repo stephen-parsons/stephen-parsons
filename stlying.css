@@ -1,0 +1,93 @@
+@font-face {
+	font-family: 'trench';
+	src: url("nimavisual_trench/trench100free.ttf");
+}
+#container {
+	background-color: black;
+	font-family: trench;
+	color: white; 			
+}
+#header {
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	background-size: 100%;
+	background-color: rgba(0, 0, 0, .5);
+	text-align: center;
+	text-shadow: 2px 2px 5px #FF0000
+}
+#toolbar {
+	position: relative;
+	margin: auto;
+	padding: 0;
+	margin-bottom: 10px;
+}
+.header-button {
+	font-size: 20px;
+	display: inline-block;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.header-button-link {
+	color: white;
+	text-decoration: none;
+}
+.button-link {
+	color: white;
+	text-decoration: none;
+}
+#main-content {
+	background-size: 100%;
+	vertical-align: top;
+	margin-top: 50px;
+	display: block;
+}
+.page-header {
+	text-align: center; 
+	margin-top: 130px;
+	margin-bottom: 20px;
+}
+figure {
+	width: 280px;
+	height: 300px;
+	overflow: hidden;
+	margin: auto;
+}
+figure #main-image {
+	/*-webkit-transform: scale(1);*/
+	transform: scale(1);
+	/*-webkit-transition: .3s ease-in-out;*/
+	transition: .3s ease-in-out;
+}
+figure #main-image:hover {
+	/*-webkit-transform: scale(1.3);*/
+	transform: scale(1.3);
+}
+
+#band-styling {
+	list-style-type: none; 
+	margin: auto; 
+	width: 40%;
+	font-size: 25px;
+}
+.bandimage {
+	width: 300px;
+}
+.main-content-background {
+	background-color: black;
+	text-align: center;
+	padding: 10px;
+	/*width: contain*/;
+}
+#footer {
+	font-size: 10px;
+	margin: 20px;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+tr:hover {
+	background-color: grey;
+}
